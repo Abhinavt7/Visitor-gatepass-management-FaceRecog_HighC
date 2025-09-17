@@ -2,6 +2,12 @@
 
 A sophisticated visitor management system that uses face recognition technology to streamline gate pass management. This system automates visitor identification and tracking using facial recognition, making the entry and exit process more secure and efficient.
 
+##Important Note - 
+
+-The dlib directory was pushed as a git submodule (as indicated by the earlier warning). This means people cloning your repository will need to use git submodule update --init --recursive to get the dlib code as well.
+-Make sure you have not accidentally pushed any sensitive data (the visitor database is included in the push).
+
+
 ## Features
 
 - Real-time face recognition
