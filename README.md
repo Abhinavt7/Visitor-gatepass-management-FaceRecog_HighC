@@ -2,11 +2,6 @@
 
 A sophisticated visitor management system that uses face recognition technology to streamline gate pass management. This system automates visitor identification and tracking using facial recognition, making the entry and exit process more secure and efficient.
 
-## Important Note - 
-
-- The dlib directory was pushed as a git submodule (as indicated by the earlier warning). This means people cloning your repository will need to use git submodule update --init --recursive to get the dlib code as well.
-- Make sure you have not accidentally pushed any sensitive data (the visitor database is included in the push).
-
 
 ## Features
 
@@ -39,8 +34,14 @@ FaceRecog_HighC/
 ## Setup
 
 1. Clone the repository:
+   
+   This project uses **git submodules** (for example, `dlib`).  
+   To ensure all submodules are included, run:
+
    ```bash
    git clone https://github.com/Abhinavt7/Visitor-gatepass-management-FaceRecog_HighC.git
+   cd Visitor-gatepass-management-FaceRecog_HighC
+   git submodule update --init --recursive
    ```
 
 2. Install dependencies:
@@ -49,7 +50,8 @@ FaceRecog_HighC/
    ```
 
 3. Set up the face database:
-   - Add known face images to the `data/known_faces/` directory
+   
+   - Can pre Add known face images to the `data/known_faces/` directory
    - Run the application to generate face encodings
 
 ## Usage
