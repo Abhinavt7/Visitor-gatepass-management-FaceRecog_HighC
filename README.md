@@ -65,10 +65,6 @@ The system will:
 - Generate/validate gate passes based on recognition
 - Log visitor entries and exits
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
