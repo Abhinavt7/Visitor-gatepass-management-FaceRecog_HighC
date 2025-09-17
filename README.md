@@ -4,8 +4,8 @@ A sophisticated visitor management system that uses face recognition technology 
 
 ##Important Note - 
 
--The dlib directory was pushed as a git submodule (as indicated by the earlier warning). This means people cloning your repository will need to use git submodule update --init --recursive to get the dlib code as well.
--Make sure you have not accidentally pushed any sensitive data (the visitor database is included in the push).
+- The dlib directory was pushed as a git submodule (as indicated by the earlier warning). This means people cloning your repository will need to use git submodule update --init --recursive to get the dlib code as well.
+- Make sure you have not accidentally pushed any sensitive data (the visitor database is included in the push).
 
 
 ## Features
